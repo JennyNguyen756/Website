@@ -27,6 +27,7 @@ ul{
     width: 100%;
     text-align: center;
     z-index: 1;
+    color: blue;
 }
 .landing-text h2{
     font-size: 3rem;
