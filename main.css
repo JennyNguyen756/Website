@@ -1,23 +1,40 @@
 body{
-    background-color:#f6f5f5;
+    background-color: white;
     margin:0px;
     padding:0px;
 }
+.pfp-container{
+    /*transform: translate(250%, 25%);*/
+    /*padding: 40px;*/
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    width: 450px;
+}
+
+.pfp{
+    width: 400px;
+}
+
 ul{
     list-style:none;
 }
 .landing-text{
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 75%);
     width: 100%;
     text-align: center;
     z-index: 1;
 }
+.landing-text h2{
+    font-size: 3rem;
+    color: gray;
+}
 .landing-text h1{
-    font-size: 10rem;
-    color: blue;
+    font-size: 5rem;
+    color: black;
 }
 nav{
     display:flex;
