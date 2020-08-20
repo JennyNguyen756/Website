@@ -1,42 +1,37 @@
 body{
-    background-color: white;
+    background-color: #8acae6;
     margin:0px;
     padding:0px;
-}
-.pfp-container{
-    /*transform: translate(250%, 25%);*/
-    /*padding: 40px;*/
-    text-align: center;
-    margin: auto;
-    margin-top: 2%;
-    width: 450px;
 }
 
 .pfp{
     width: 400px;
+    text-align: center;
+    border-color: lightblue;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
 }
 
 ul{
     list-style:none;
 }
-.landing-text{
+.landing-text-container{
     position: absolute;
     top: 25%;
-    left: 50%;
-    transform: translate(-50%, 75%);
-    width: 100%;
     text-align: center;
     z-index: 1;
-    color: blue;
+    color: white;
+    width: 100%;
 }
-.landing-text h2{
-    font-size: 3rem;
-    color: gray;
+
+.landing-text{
+    width: 400px;
+    text-align: center;
+    width: 100%;
+
 }
-.landing-text h1{
-    font-size: 5rem;
-    color: black;
-}
+
 nav{
     display:flex;
     justify-content:space-between;
